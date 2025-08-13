@@ -1,8 +1,8 @@
-﻿using System.Configuration;
+using System.Configuration;
 using System.Data;
 using System.Windows;
 
-namespace PSPackagerCore;
+namespace Ps1ToExe;
 
 /// <summary>
 /// Interaction logic for App.xaml
