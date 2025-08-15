@@ -1,0 +1,14 @@
+﻿<mah:MetroWindow x:Class="MaiMvvmFramework.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MaiMvvmFramework.Views"
+        xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"
+        mc:Ignorable="d"
+        Title="{Binding Title}" Height="450" Width="800"
+        Closing="ShellView_OnClosing" d:DataContext="{d:DesignInstance }">
+    <Grid>
+        <mah:MetroContentControl Content="{Binding MainContentView}" x:Name="MainContent" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+    </Grid>
+</mah:MetroWindow>

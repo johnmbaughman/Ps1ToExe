@@ -1,0 +1,17 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls">
+    <ResourceDictionary.MergedDictionaries>
+        <!-- ReSharper disable Xaml.PathError -->
+        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Themes/Light.Blue.xaml" />
+        <!-- ReSharper restore Xaml.PathError -->
+    </ResourceDictionary.MergedDictionaries>
+    <Style BasedOn="{StaticResource MahApps.Styles.Button}" TargetType="Button" x:Key="SettingsViewButtonStyle">
+        <Setter Property="FontSize" Value="17" />
+        <Setter Property="Margin" Value="5" />
+        <Setter Property="Height" Value="70" />
+        <Setter Property="Width" Value="Auto" />
+    </Style>
+</ResourceDictionary>

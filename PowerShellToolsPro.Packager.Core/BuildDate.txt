@@ -7,15 +7,16 @@ Setting $PSModulePath to C:\Personal\PowerShell\Modules...
 Setting aliases...
 Setting prompt...
 Setting Chocolatey Profile...
-Password for account jbaughma expires in 166 days.
-Password for account jobaughma expires in 16 days.
+Password for account jbaughma expires in 164 days.
+Password for account jobaughma expires in 14 days.
 
 Network Configuration:
 	Ethernet 3 IP Address: 	10.165.163.201
-	External IP Address: 	163.120.88.79
+	Wi-Fi IP Address: 	10.165.165.212
+	External IP Address: 	163.120.88.20
 
 
 Finished loading profile for jbaughma... Enjoy using PowerShell 7.5.2!
 
 
-133995091700321218
+133996831181163035
